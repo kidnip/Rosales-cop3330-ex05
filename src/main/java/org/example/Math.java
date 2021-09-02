@@ -22,10 +22,14 @@ public class Math
         int x = Integer.parseInt(a.getC());
         int y = Integer.parseInt(b.getC());
 
-        System.out.printf("%d + %d = %d\n", x, y, x+y);
-        System.out.printf("%d - %d = %d\n", x, y, x-y);
-        System.out.printf("%d * %d = %d\n", x, y, x*y);
-        System.out.printf("%d / %d = %d", x, y, x/y);
+        int z = x + y;
+        System.out.printf("%d + %d = %d\n", x, y, z);
+        z = x - y;
+        System.out.printf("%d - %d = %d\n", x, y, z);
+        z = x * y;
+        System.out.printf("%d * %d = %d\n", x, y, z);
+        z = x / y;
+        System.out.printf("%d / %d = %d", x, y, z);
 
     }
 }
